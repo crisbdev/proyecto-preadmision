@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 600px;
+    background-image: url('https://www.selecoes.com.br/wp-content/uploads/2021/01/ribbon-banner-with-text-quiz-poster-in-pop-art-style-vector-stock-vector-id1200752297.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+p {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    font-size: 60;
+}
+
+h1 {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  font-size: 100;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-align: center;
+
+}
+
+@media (max-height: 500px) {
+    body {
+        min-height: 800px;
+    }
+
+    .section {
+        text-align: justify;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 3px solid blue;
+        background-color: yellow;
+    }
+
+    .footer {
+        text-align: center;
+        
+    }
