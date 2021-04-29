@@ -1,31 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
 body {
-    font-family: 'Roboto Mono', monospace;
     min-height: 600px;
     background-image: url('https://www.selecoes.com.br/wp-content/uploads/2021/01/ribbon-banner-with-text-quiz-poster-in-pop-art-style-vector-stock-vector-id1200752297.jpg');
     background-color: #000000;
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
-}
-
-.container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-}
-
-p {
-    display: inline-block;
-    color: #000000;
-    text-align: center;
-    font-size: 60;
-}
-
-h1 {
-  display: inline-block;
-  color: #000000;
-  text-align: center;
-  font-size: 100;
 }
 
 .page-title {
@@ -35,22 +16,52 @@ h1 {
 
 }
 
-@media (max-height: 500px) {
-    body {
-        min-height: 800px;
-    }
+.container {
+    box-sizing: border-box;
+    box-sizing: inherit;
+    font-family: 'Roboto';
+    font-size: 60;
+    font-style: italic;
+    font-weight: 500;
+    display: inline-table;
+    color: #000000;
+    text-align: justify;
+    border-color: #000000;
+    border-radius: 2px;
+    padding: 20px;
+}
 
-    .section {
-        text-align: justify;
-        display: inline-block;
-        width: 100px;
-        height: 100px;
-        padding: 5px;
-        border: 3px solid blue;
-        background-color: yellow;
-    }
+p {
+    font-family: 'Roboto', monospace;
+    font-size: 60;
+    font-style: italic;
+    font-weight: 500;
+    color: #000000;
+    text-align: justify;
+    border-color: #000000;
+    border-radius: 2px;
+    padding: 20px;
+}
 
-    .footer {
-        text-align: center;
-        
-    }
+.section {
+    text-align: justify;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid blue;
+    background-color: yellow;
+}
+
+.footer {
+    font-family: 'Roboto', monospace;
+    font-size: 40;
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    border-color: #000000;
+    border-radius: 2px;
+    padding: 20px;
+
+}
